@@ -7,11 +7,11 @@
     <script type="text/javascript" src="recursos/funciones.js"></script>
 </head>
 <body>
-<form name="form1" action="/ManejoFormulariosHTML/Servlet" method="post"
+<form name="form1" action="Servlet" method="post"
       onsubmit="return validarForma(this)">
     <input type="hidden" name="oculto" value="valorOculto"/>
 
-    <table width="200" id="enfasis-columna">
+    <table id="enfasis-columna">
         <caption>
             Formulario Registro de Datos
         </caption>
